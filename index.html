@@ -1,0 +1,23 @@
+---
+layout: zfday
+title: DevOps Day
+ttl: DevOps <em>Day</em> 2014
+conf_data: "Bologna, 22 Feb. 2014"
+cfp: false
+speakers: false
+cfs: true
+where: t3lab-bo
+tickets: true
+---
+
+{% include section-newsletter.html %}	
+{% include section-contents.html %}	
+
+{% if page.cfp %} {% include section-cfp.html %} {% endif %}
+{% if page.tickets %} {% include section-tickets.html %} {% endif %}
+{% if page.speakers %} {% include section-speakers.html %} {% endif %}
+
+{% capture place %}{{'where/'}}{{page.where}}{{'.html'}}{% endcapture %}
+
+{% include places/t3lab-bo.html %}	
+{% include section-sponsors.html %}
