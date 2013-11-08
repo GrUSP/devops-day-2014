@@ -1,3 +1,26 @@
+<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        <script>
+            function initialize_map() {
+                var mapOptions = {
+                    zoom: 15,
+                    center: new google.maps.LatLng(44.520821,11.347868),
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                }
+                var map = new google.maps.Map(document.getElementById('map_canvas'),
+                mapOptions);
+
+                var I3P = new google.maps.Marker({
+                    position: new google.maps.LatLng(44.520821,11.347868),
+                    map: map,
+                    icon: 'img/marker.png',
+                    title:"T3LAB"
+                });
+
+
+
+            }
+        </script>
+        
 <section class="alpha_32" >
     <a name="location"></a>
     <div class="container group" >
