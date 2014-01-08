@@ -519,7 +519,12 @@ a:hover.slides{
 #schedule tr.common_event td, #schedule tr.common_event td h4{
 	text-align: center;
 }
+
 #schedule tr.common_event td:first-child{
+	text-align: left;
+}
+
+#schedule tr.common_event td:nth-child(2){
 	text-align: left;
 }
 
